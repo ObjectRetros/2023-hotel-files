@@ -1,0 +1,28 @@
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes128 128bits
+Hash Algorithm: Sha256 ?bits
+Key Exchange: ECDHE_RSA (0xae06) 255bits
+
+== Server Certificate ==========
+[Subject]
+  CN=sni.cloudflaressl.com, O="Cloudflare, Inc.", L=San Francisco, S=California, C=US
+
+[Issuer]
+  CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+
+[Serial Number]
+  0946B21DD857113658A499283028A0E1
+
+[Not Before]
+  04/03/2022 1:00:00
+
+[Not After]
+  04/03/2023 0:59:59
+
+[Thumbprint]
+  6F9534546444922372C566F973B8B1B2D33D7394
+
+[SubjectAltNames]
+sni.cloudflaressl.com, habbox.fr, *.habbox.fr
