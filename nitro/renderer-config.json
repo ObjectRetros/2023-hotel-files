@@ -1,5 +1,5 @@
 {
-    "socket.url": "wss://YOUR-WEBSOCKET-SUB-DOMAIN:2096",
+    "socket.url": "wss://nitro.YOUR-DOMAIN:2096",
     "asset.url": "https://YOUR-DOMAIN/client/nitro/nitro-assets",
     "flash.asset.url": "https://YOUR-DOMAIN/client/flash",
     "image.library.url": "${flash.asset.url}/c_images/",
