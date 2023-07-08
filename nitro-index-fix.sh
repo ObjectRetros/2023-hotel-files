@@ -1,6 +1,8 @@
 #!/bin/bash
 
 file_path="C:/inetpub/wwwroot/atomcms/public/client/nitro/nitro-react/dist/index.html"
+src_folder_path="C:/inetpub/wwwroot/atomcms/public/client/nitro/nitro-react/dist/src"
+destination_folder_path="C:/inetpub/wwwroot/atomcms/public/src"
 
 awk '{
   gsub("/favicon.ico", "./favicon.ico");
@@ -18,7 +20,8 @@ awk '{
   print
 }' "$file_path" > "$file_path.tmp"
 
-# Overwrite the original file with the modified content
 mv "$file_path.tmp" "$file_path"
 
-echo "File updated successfully."
+xcopy "$src_folder_path" "$destination_folder_path" /E /I /Y
+
+echo "File updated successfully. src folder copied to the destination folder."
