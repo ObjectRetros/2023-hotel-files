@@ -67,13 +67,13 @@
         "show.avatar": true,
         "widgets": {},
         "images": {
-            "background": "${asset.url}/images/reception/habstar_background_gradient.png",
-            "background.colour": "",
-            "sun": "${asset.url}/images/reception/empty.png",
-            "drape": "${asset.url}/images/reception/empty.png",
-            "left": "${asset.url}/images/reception/habstar_hotelview_v1.png",
-            "right": "${asset.url}/images/reception/habstar_background_gradient.png",
-            "right.repeat": "${asset.url}/images/reception/habstar_background_gradient.png"
+            "background": "${asset.url}/images/reception/stretch_blue.png",
+            "background.colour": "#6eadc8",
+            "sun": "${asset.url}/images/reception/sun.png",
+            "drape": "${asset.url}/images/reception/drape.png",
+            "left": "${asset.url}/images/reception/ts.png",
+            "right": "${asset.url}/images/reception/US_right.png",
+            "right.repeat": "${asset.url}/images/reception/US_top_right.png"
         }
     },
     "achievements.unseen.ignored": [
