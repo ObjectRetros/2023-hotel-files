@@ -8,7 +8,4 @@ This repository contains all the assets needed for your hotel to operate. More s
 - xReiko clothing pack
 - Converted assets for the nitro client
 
-  
-The MyBobba catalogue has been heavily cleaned of unused files taking it from almost 60k catalog nitro files and almost 60k catalog icons to 21k in each.
-
 The MyBoBBa catalogue is created by https://devbest.com/members/puffin.80070/
