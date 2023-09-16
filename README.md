@@ -14,6 +14,7 @@ This repository contains all the assets needed for your hotel to operate. More s
 - Converted assets for the nitro client
 
 The MyBoBBa catalogue is created by https://devbest.com/members/puffin.80070/
+Clothing pack by https://devbest.com/members/xlraiko.83192/
 
 <div>
 <img src="https://i.imgur.com/9ePNdJ4.png" alt="Atom CMS"/>
