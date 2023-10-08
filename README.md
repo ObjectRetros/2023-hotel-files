@@ -10,7 +10,7 @@ Please note that the files is provided as an educational resource for learning p
 This repository contains all the assets needed for your hotel to operate. More specifically it contains:
 - The default swf pack from krews
 - MyBoBBa catalogue assets
-- xReiko clothing pack
+- xlRaiko clothing pack
 - Converted assets for the nitro client
 
 The MyBoBBa catalogue is created by https://devbest.com/members/puffin.80070/
