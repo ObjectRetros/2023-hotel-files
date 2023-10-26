@@ -15061,6 +15061,8 @@ INSERT INTO `emulator_settings` VALUES ('hotel.calendar.default', 'test');
 INSERT INTO `emulator_settings` VALUES ('hotel.calendar.pixels.hc_modifier', '2.0');
 INSERT INTO `emulator_settings` VALUES ('moodlight.color_check.enabled', '1');
 INSERT INTO `emulator_settings` VALUES ('custom.stacking.enabled', '0');
+INSERT INTO `emulator_settings` VALUES ('pathfinder.execution_time.milli', '25');
+INSERT INTO `emulator_settings` VALUES ('pathfinder.max_execution_time.enabled', '1');
 
 -- ----------------------------
 -- Table structure for emulator_texts
