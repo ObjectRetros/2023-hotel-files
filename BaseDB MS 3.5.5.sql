@@ -13604,6 +13604,25 @@ INSERT INTO `catalog_target_offers` (`id`, `offer_code`, `title`, `description`,
 COMMIT;
 
 -- ----------------------------
+-- Table structure for chat_bubbles
+-- ----------------------------
+DROP TABLE IF EXISTS `chat_bubbles`;
+CREATE TABLE `chat_bubbles` (
+  `type` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Only 46 and higher will work',
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `permission` varchar(255) NOT NULL DEFAULT '',
+  `overridable` tinyint(1) NOT NULL DEFAULT 1,
+  `triggers_talking_furniture` tinyint(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`type`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;
+
+-- ----------------------------
+-- Records of chat_bubbles
+-- ----------------------------
+BEGIN;
+COMMIT;
+
+-- ----------------------------
 -- Table structure for chatlogs_private
 -- ----------------------------
 DROP TABLE IF EXISTS `chatlogs_private`;
